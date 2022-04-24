@@ -17,6 +17,7 @@ class UserTest extends Object{
 
         User user2 = new User("martin", "martin@fastcampus.com");
 
+        User user3 = User.builder().name("martin").email("martin@fastcapus.com").build();
         System.out.println(">>> " + user.toString());
     }
 

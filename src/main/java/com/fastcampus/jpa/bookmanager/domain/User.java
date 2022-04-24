@@ -4,12 +4,11 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
-@ToString
-@Setter
-@Getter
 @NoArgsConstructor
-@RequiredArgsConstructor
 @AllArgsConstructor
+@RequiredArgsConstructor
+@Data
+@Builder
 /// no args contructor 와 동일함
 public class User {
     @NonNull
